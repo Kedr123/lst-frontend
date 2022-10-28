@@ -1,0 +1,20 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*min-width: 30px;*/
+    width: 100%;
+    min-height: 50px;
+    height: 5%;
+    background-color: #CC2222;
+    color: white;
+}
+
+.textHeader{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}

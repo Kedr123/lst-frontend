@@ -1,0 +1,55 @@
+.AuthPage{
+    background-color: white;
+    border: 1px solid #CC2222;
+    border-radius: 5px;
+    /*max-width: 35%;*/
+    height: 80%;
+    max-height: 600px;
+    max-width: 570px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 5px;
+    /*width: clamp(500px, 80%, 1000px);*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.iconAuth{
+    margin-top: 10%;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+.iconAuth img{
+    width: 70%;
+
+}
+
+/*.imgAuth{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+
+/*}*/
+
+.imgAuth{
+    display: block;
+    width: clamp(300px, 100%, 1000px)
+}
+
+.authForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 174px;
+}
+
+.authButton{
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,12 @@
+.AuthInput{
+    border-radius: 5px;
+    border: #CC2222 1px solid;
+
+    padding: 3%;
+    padding-left: 10%;
+}
+
+.AuthInput::placeholder{
+    color: #CC2222;
+    font-family: Arial;
+}
