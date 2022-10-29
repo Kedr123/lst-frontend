@@ -39,14 +39,15 @@
 
 .imgAuth{
     display: block;
-    width: clamp(300px, 100%, 1000px)
+    width: clamp(150px, 100%, 1000px)
 }
 
 .authForm{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 174px;
+    justify-content: space-around;
+    /*min-height: 174px;*/
+    min-height: 150px;
 }
 
 .authButton{

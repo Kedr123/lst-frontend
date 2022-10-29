@@ -10,8 +10,13 @@ const AuthPage = () => {
     const [login, setLogin] = useState('');
     const [password, setPassword] = useState('');
 
+    const [response, setResponse] = useState(true);
+
     const setForm = () =>{
         console.log(login+' || '+password)
+
+
+
     }
 
     return (
@@ -21,8 +26,8 @@ const AuthPage = () => {
             </div>
 
             <div className={classes.authForm}>
-                <AuthInput placeholder={'Логин'} size={'16px'} input={login} setInput={setLogin}/>
-                <AuthInput placeholder={'Пароль'} size={'16px'} input={password} setInput={setPassword}/>
+                <AuthInput placeholder={'Логин'}  input={login} setInput={setLogin}/>
+                <AuthInput placeholder={'Пароль'} input={password} setInput={setPassword} type={'password'}/>
                 <div className={classes.authButton}>
                     <AuthButton value={'Войти'} width={'70%'} onClick={setForm}/>
                 </div>
@@ -32,7 +37,6 @@ const AuthPage = () => {
             {/*<div className={classes.imgAuth}>*/}
             <img className={classes.imgAuth} src={imgAuth} alt=""/>
             {/*</div>*/}
-
         </div>
     );
 };

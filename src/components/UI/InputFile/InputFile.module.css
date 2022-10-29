@@ -1,0 +1,80 @@
+.example1 {
+    box-shadow: 0px 4px 5px rgba(204, 34, 34, 0.59);
+    transition-duration: 300ms;
+}
+
+.example1:hover {
+    box-shadow: 0px 6px 10px rgba(204, 34, 34, 0.59);
+    transition-duration: 300ms;
+}
+
+.example1:active{
+    box-shadow: 0px 3px 10px rgba(204, 34, 34, 0.59);
+}
+
+.example1 input[type=file] {
+    outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+}
+
+.label {
+    /*width: 120px;*/
+    /*border: 2px dashed grey;*/
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    /*min-height: 175px;*/
+    height: clamp(175px,50vw,360px);
+    width: clamp(175px,50vw,360px);
+
+    /*margin: clamp(95px,100%,230px);*/
+    /*padding: clamp(95px,100%,230px);*/
+    /*padding: 50px;*/
+    padding: 40px 0px;
+
+
+
+}
+
+.label i {
+    display: flex;
+    font-size: 42px;
+    /*padding-bottom: 16px*/
+    /*max-width: 190px;*/
+    /*max-height: 190px;*/
+    width: 100%;
+    justify-content: center;
+}
+
+.example1 .label i, .example1 .label .title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #CC2222;
+}
+
+
+
+.example1 .label:hover i, .example1 .label:hover .title {
+    /*color: #000*/
+}
+
+.materialIcons{
+
+}
+
+.materialIcons img{
+    width: clamp(95px,30vw,190px);
+}

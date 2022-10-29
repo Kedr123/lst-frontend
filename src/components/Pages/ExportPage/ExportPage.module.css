@@ -1,0 +1,29 @@
+.ExportPage{
+    background-color: white;
+    border: 1px solid #CC2222;
+    border-radius: 5px;
+    /*max-width: 35%;*/
+    max-height: 600px;
+    max-width: 570px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 5px;
+    width: clamp(230px, 100%, 660px);
+    height: clamp(320px, 100%, 700px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ExportPageText{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #CC2222;
+}
