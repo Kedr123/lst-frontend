@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./ExportPage.module.css";
-import InputFile from "../../UI/InputFile/InputFile";
+import InputFile from "../../UI/Inputs/InputFile/InputFile";
 
 const ExportPage = () => {
     return (

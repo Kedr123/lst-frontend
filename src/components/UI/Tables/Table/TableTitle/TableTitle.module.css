@@ -1,0 +1,30 @@
+.TableTitle{
+    display: flex;
+    justify-content: space-between;
+    border: #CC2222 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    width: 100%;
+
+
+    padding: 0px 0px;
+    color: #CC2222;
+}
+
+.title, .titleEnd{
+    white-space: pre-wrap;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.title{
+    border-right: #CC2222 1px solid;
+}

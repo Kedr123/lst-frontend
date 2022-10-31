@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import classes from './InputFile.module.css';
-import icon from './../../../assets/img/uploadIcon.svg'
+import icon from '../../../../assets/img/uploadIcon.svg'
 
 const InputFile = () => {
 

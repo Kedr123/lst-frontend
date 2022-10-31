@@ -1,0 +1,7 @@
+.TableItems {
+    height: 82%;
+    width: 100%;
+
+    overflow: auto;
+    scrollbar-width: thin;
+}

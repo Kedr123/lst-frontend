@@ -1,0 +1,34 @@
+.SearchInput{
+    border-radius: 50px 0px 0px 50px;
+    border: #CC2222 1px solid;
+    color: #CC2222;
+
+    outline: none;
+
+    padding: 3%;
+    padding-left: 10%;
+
+    transition-duration: 500ms;
+}
+
+.SearchInput::placeholder{
+    color: #CC2222;
+    font-family: Arial;
+    transition-duration: 200ms;
+}
+
+.SearchInput:active{
+    border: #CC2222 1px solid;
+}
+
+.SearchInput:focus{
+    border: #CC2222 1px solid;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+.SearchInput:focus::placeholder{
+    opacity: 0;
+}
+
+.SearchInput:hover{
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}

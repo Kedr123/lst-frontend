@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import classes from "./AuthPage.module.css";
 import iconAuth from "./../../../assets/img/icon_auth.svg"
 import imgAuth from "./../../../assets/img/img_auth.png"
-import AuthInput from "../../UI/AuthInput/AuthInput";
-import AuthButton from "../../UI/AuthButton/AuthButton";
+import AuthInput from "../../UI/Inputs/AuthInput/AuthInput";
+import AuthButton from "../../UI/Buttons/AuthButton/AuthButton";
 
 const AuthPage = () => {
 

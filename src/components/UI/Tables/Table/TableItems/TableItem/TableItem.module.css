@@ -1,0 +1,23 @@
+.TableItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 100%;*/
+
+}
+
+.text{
+    text-align: center;
+
+    padding: 10px 10px;
+
+    display: block;
+    height: 100%;
+    width: 100%;
+
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
